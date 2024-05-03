@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to bottom, #2F4454, #DA7B93, #2E151B, #376E6F, #1C3334);
+}
+
+
+.to-do-list{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 4rem;
+    color: white;
+}
+
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+
+.add-button{
+    background-color: hsl(311, 60%, 58%);
+}
+.add-button:hover{
+    background-color: hsl(311, 60%, 48%);
+
+}
+.edit-button{
+    background-color: hsl(175, 38%, 58%);
+
+}
+.edit-button:hover{
+    background-color: hsl(0, 0%, 56%);
+
+}
+
+.delete-button{
+    background-color: hsl(0, 0%, 86%);
+}
+.delete-button:hover{
+    background-color: hsl(0, 0%, 66%);
+
+}
+
+.move-button{
+    background: linear-gradient(to bottom, hsl(182, 100%, 80%), hsl(202, 91%, 33%), hsl(199, 85%, 56%));
+}
+
+.move-button:hover{
+    background: linear-gradient(to bottom, hsl(182, 100%, 60%), hsl(202, 91%, 13%), hsl(199, 85%, 36%));
+
+}
+
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid linear-gradient(to bottom, #0B0C10, #1F2833, #C5C6C7, #45A29E, #66FCF1);
+    border-radius: 5px;
+    color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsl(0, 17%, 92%);
+}
+
+ol{
+    padding: 0;
+}
+
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: hsl(0, 5%, 47%);
+    margin-bottom: 10px;
+    border: 3px solid hsla(0, 0%, 85%, 0.75);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.delete-button,.move-button,.edit-button,.save-button{
+    padding: 8px 12px;
+    font-size: 1-4rem;
+    margin-left: 10px;
+}
